@@ -4,7 +4,7 @@
 
 #include <iostream>
 
-#include "task1.h"
+#include "../include/task1.h"
 
 template<typename T>
 void print(T t) {
@@ -13,6 +13,9 @@ void print(T t) {
 
 int main() {
     print(getPrime(5));
+    print(getPrime(3));
     print(getPrime(10));
+    print(getPrime(1));
+    print(getPrime(100000));
     return 0;
 }

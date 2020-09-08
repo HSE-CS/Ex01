@@ -15,7 +15,7 @@ unsigned int getPrime(unsigned int n)
 	return prime_number;
 }
 
-int checkPrime(unsigned int n)
+static int checkPrime(unsigned int n)
 {
 	if (n == 1 || n == 0)
 	{
@@ -33,7 +33,7 @@ int checkPrime(unsigned int n)
 	return 1;
 }
 
-unsigned int getNextPrime(unsigned int n)
+static unsigned int getNextPrime(unsigned int n)
 {
 	n++;
 	while (!checkPrime(n++));

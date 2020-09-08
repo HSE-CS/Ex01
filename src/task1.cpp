@@ -3,18 +3,6 @@
 
 using namespace std;
 
-unsigned int getPrime(unsigned int n)
-{
-	unsigned int prime_number = 1;
-	
-	while (n != 0)
-	{
-		prime_number = getNextPrime(prime_number);
-		n--;
-	}
-	return prime_number;
-}
-
 static int checkPrime(unsigned int n)
 {
 	if (n == 1 || n == 0)
@@ -39,4 +27,16 @@ static unsigned int getNextPrime(unsigned int n)
 	while (!checkPrime(n++));
 
 	return --n;
+}
+
+unsigned int getPrime(unsigned int n)
+{
+	unsigned int prime_number = 1;
+	
+	while (n != 0)
+	{
+		prime_number = getNextPrime(prime_number);
+		n--;
+	}
+	return prime_number;
 }

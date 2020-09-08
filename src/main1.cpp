@@ -2,9 +2,11 @@
 
 using namespace std;
 
-void main()
+int main()
 {
 	unsigned int num;
 	cin >> num;
 	cout << getPrime(num);
+	cin >> num;
+	return 0;
 }

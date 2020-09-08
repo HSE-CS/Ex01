@@ -6,13 +6,13 @@ using namespase std;
 
 unsigned int getPrime(int n)
 {
-    int l = 1, m, i=2;
+    int l = 1, m = 2, i=2;
     vector<int>numbers(100000);
     for(int j = 0;j<100000;j++){
         numbers[j] = 0;
     }
     if (n == 1)
-        return 1;
+        return 2;
     while(1){
         if(i == 100000){
             return 0;

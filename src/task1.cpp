@@ -3,6 +3,7 @@
 unsigned int getPrime(unsigned int n) {
     unsigned int result = 1, i = 0;
     while (i != n) {
+        result++;
         int r = 0;
         for (int j = 2; j < result; j++) {
             if (result % j == 0)
@@ -10,11 +11,6 @@ unsigned int getPrime(unsigned int n) {
         }
         if (r == 0) {
             i++;
-            cout << result;
-            result++;
-        }
-        else {
-            result++;
         }
     }
     return result;

@@ -13,8 +13,8 @@
 // Решето Эратосфена
 // ****
 
-int getPrime(int target_number){
-    int prime_number = 0;
+unsigned int getPrime(int target_number){
+    unsigned int prime_number = 0;
     int counter = 0;
     
     //заполняем единицами
@@ -37,7 +37,7 @@ int getPrime(int target_number){
     }
     
     // ищем в массиве натуральных чисел наше (порядвковое)
-    for(int i = 1; i < max; i++){
+    for(unsigned int i = 1; i < max; i++){
         if (S[i] == 1){
             counter++;
         }

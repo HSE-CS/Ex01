@@ -11,23 +11,23 @@ unsigned int getPrime(unsigned int n) {
 	int i = 0;
 
 
-	for ;i < n; {
+	while (i < n)
+	{
 
 		is_complex = 0;
 		chislo++;
 
-		for int delitel = 2; delitel < chislo; delitel++ {
+		for (int delitel = 2; delitel < chislo; delitel++) {
 
-			if chislo % delitel == 0 {
+			if (chislo % delitel == 0) {
 				is_complex++;
 				break;
 			}
 		}
 
-		if is_complex == 0 {
+		if (is_complex == 0) {
 			i++;
 		}
-
 	}
 
 	return chislo;

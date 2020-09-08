@@ -11,7 +11,7 @@
 
 int main(){
     int num;
-    printf("Type a number index: ");
+    printf("Type a prime number index: ");
     scanf("%d", &num);
     int r = getPrime(num);
     printf("Your prime number: %d\n", r);

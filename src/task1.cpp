@@ -3,8 +3,8 @@ unsigned int getPrime(unsigned int n)
 	unsigned int count = 2;
 	unsigned int prime = 0;
 	if (n < 3)
-		return n;
-	for (int i = 3; count < n; i += 2)
+		return n+1;
+	for (int i = 3; count <= n; i += 2)
 	{
 		bool isPrime = true;
 		for (int j = 2; j < i; j++)

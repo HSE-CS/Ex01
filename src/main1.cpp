@@ -8,6 +8,5 @@ int main()
 {
 	unsigned int n = 0;
 	cin >> n;
-	n = getPrime(n);
-	cout << n;
+	cout << getPrime(n);
 }

@@ -6,7 +6,7 @@
 
 unsigned int getPrime(unsigned int n)
 {   
-	int count = 1, number=2, i=2, count_del=0;
+	unsigned int count = 1, number=2, i=2, count_del=0;
 	while (count <= n)
 	{
 		while (i*i <= number && count_del == 0)

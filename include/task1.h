@@ -10,5 +10,5 @@
 #define task1_h
 
 #include <stdio.h>
-int getPrime(int target_number);
+unsigned int getPrime(unsigned int target_number);
 #endif /* task1_h */

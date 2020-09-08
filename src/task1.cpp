@@ -13,7 +13,7 @@
 // Решето Эратосфена
 // ****
 
-unsigned int getPrime(int target_number){
+unsigned int getPrime(unsigned int target_number){
     unsigned int prime_number = 0;
     int counter = 0;
     

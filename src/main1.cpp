@@ -14,7 +14,7 @@ int main() {
         fprintf(stderr, "ERROR : the number must be greater than zero");
         return 0;
     }
-    printf("The %d-nd simple number is %d", n, getPrime(n-1));
+    printf("The %d-nd simple number is %d", n, getPrime(n));
     return 1;
 }
 

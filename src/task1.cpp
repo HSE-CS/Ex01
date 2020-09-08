@@ -5,6 +5,7 @@
 
 unsigned int getPrime(unsigned int n) {
     //checking to a zero
+    n--;
     if (n == 0) return 2;
 
     //последнее число

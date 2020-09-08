@@ -1,5 +1,4 @@
 #include <iostream>
-#include <stdlib.h>
 #include "task1.h"
 
 unsigned int getPrime(unsigned int n)
@@ -11,14 +10,14 @@ unsigned int getPrime(unsigned int n)
         for (j = 2; j * j <= p; j++)
             if ((p % j) == 0)
                 break;
-        if (j * j > p) {
+        if (j * j > p)
+        {
             a++;
-            if (a == n) {
-                printf ("%d", p);
-                break;
+            if (a == n)
+            {
+                return p;
             }
         }
 
     }
-    return a;
 }

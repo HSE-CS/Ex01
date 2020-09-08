@@ -2,7 +2,7 @@
 #include "task1.h"
 using namespace std;
 int main() {
-	int n;
+	unsigned int n;
 	cin >> n;
 	cout << task1::getPrime(n);
 }

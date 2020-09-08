@@ -9,5 +9,5 @@ int main(int argc, char* argv[])
 	cout << "Please enter num: ";
 	cin >> num;
 	num = getPrime(num);
-	cout << "answer: " << num << endl;
+	cout << "Prime number " << num << endl;
 }

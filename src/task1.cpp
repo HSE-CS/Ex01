@@ -1,29 +1,30 @@
 #include "task1.h"
+#include <cmath>
 
-unsigned int getPrime(unsigned int n)
+int check(unsigned int n)
 {
-	int nums = 0;
-	int status = 0;
-	for (int i = 2; i < 999; i++) {
-		status = testNumber(i);
-		if (status == 1) ++nums;
-		if (nums == n)
-		{
-			n = i;
-			break;
-		}
-	}
+	if (n == 1)
+		return 0;
+	for (int i = 2; i < n - 1; i++)
+		if (n % i == 0)
+			return 0;
+	return 1;
+}
+
+unsigned int getNext(unsigned int n)
+{
+	do
+		n++;
+	while (!check(n));
 	return n;
 }
 
-int testNumber(int num)
+unsigned int getPrime(unsigned int n)
 {
-	int x = 0;
-	for (int i = 1; i <= num; i++)
-	{
-		if (num % i == 0) ++x;
-	}
-
-	if (x == 2) return 1; // true
-	else if (x >= 2) return 0;
+	if (n == 1)
+		return 2;
+	int prime = 2;
+	for (int i = 1; i < n; i++)
+		prime = getNext(prime);
+	return prime;
 }

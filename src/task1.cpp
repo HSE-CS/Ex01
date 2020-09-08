@@ -18,7 +18,7 @@ unsigned int getPrime(unsigned int target_number){
     int counter = 0;
     
     //заполняем единицами
-    int S[5000] = {0};
+    int S[5000];
     for (int i = 0; i < 5000; i++){
         S[i] = 1;
     }

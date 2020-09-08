@@ -7,8 +7,8 @@
 int main()
 {
 	unsigned int n = 0, result= 0;
-	puts("Enter n:\n");
+	puts("Enter n:");
 	scanf("%d", &n);
 	result = getPrime(n);
-	printf("Your simple number: %d", result);
+	printf("Your simple number: %d\n", result);
 }

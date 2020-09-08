@@ -9,23 +9,19 @@ unsigned int getPrime(unsigned int n)
 	int count = 1, number=2, i=2, count_del=0;
 	while (count <= n)
 	{
-		while (i*i <= number && count_del)
+		while (i*i <= number && count_del == 0)
 		{
 			if (number % i == 0)
 				count_del += 1;
-			count_del += 1;
+			i += 1;
 		}
-		if (count_del == 0)
-		{
-			number += 1;
+		if (count_del == 0 && count == n)
+			break;
+		if (count_del == 0 && count < n)
 			count += 1;
-			count_del = 0;
-		}
-		else
-		{	
-			count_del = 0;
-		}
-		
+		number += 1;
+		count_del = 0;
+		i = 2;
 	}
 	return number;
 }

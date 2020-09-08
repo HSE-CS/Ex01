@@ -1,4 +1,4 @@
-#include "..\include\task1.h"
+#include "task1.h"
 #include <math.h>
 
 unsigned int getPrime(unsigned int n)

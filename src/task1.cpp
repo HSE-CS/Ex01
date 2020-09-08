@@ -12,11 +12,11 @@ unsigned int getPrime(unsigned int n){
         if (j * j > p) {
             a++;
             if (a == n) {
-                cout << p << endl;
+                return p;
                 break;
             }
         }
 
     }
-    return 0;
+
 }

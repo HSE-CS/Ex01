@@ -7,45 +7,43 @@
 //
 
 #include "task1.h"
-#define max 5000
+#define max 50000
 
 // ****
 // Решето Эратосфена
 // ****
+// порядковое число до 5000-го
+// ****
 
 unsigned int getPrime(unsigned int target_number){
-    unsigned int prime_number = 0;
     int counter = 0;
     
     //заполняем единицами
-    int S[5000];
-    for (int i = 0; i < 5000; i++){
-        S[i] = 1;
+    int num_array[max];
+    for (int i = 0; i < max; i++){
+        num_array[i] = 1;
     }
     
-    S[0] = 0;
-    S[1] = 0;
+    num_array[0] = 0;
+    num_array[1] = 0;
 
-    for(int k=2; k*k<= 5000; k++){
+    for(int k=2; k*k< max; k++){
         // если k - простое (не вычеркнуто)
-        if(S[k]==1){
+        if(num_array[k]==1){
             // то вычеркнем кратные k
-            for(int l=k*k; l<=5000; l+=k){
-                S[l]=0;
-            }
+            for(int l=k*k; l < max; l+=k)
+                num_array[l]=0;
         }
     }
     
-    // ищем в массиве натуральных чисел наше (порядвковое)
-    for(unsigned int i = 1; i < 5000; i++){
-        if (S[i] == 1){
+    // ищем в массиве натуральных чисел наше (порядковое)
+    for(unsigned int i = 1; i < max; i++){
+        if (num_array[i] == 1)
             counter++;
-        }
-        if (counter == target_number){
-            prime_number = i;
-            return prime_number;
-        }
+        
+        if (counter == target_number)
+            return i;
     }
     
-    return prime_number;
+    return 0;
 }

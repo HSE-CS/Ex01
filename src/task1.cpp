@@ -8,22 +8,15 @@ bool isSimple(int num){
 }
 
 unsigned int getPrime(int n){
-    int nums[100];
-    int counter = 1;
-    int a = 3;
-    nums[0] = 2;
-    for (int i = 1; i < n; ++i) {
-        nums[i] = 0;
-    }
-    while (nums[n-1] != 0){
-        if (isSimple(a)){
-            nums[counter] = a;
-            counter++;
+    int conter = 1;
+    int num = 1;
+    while (conter != n+1){
+        num++;
+        //printf("counter: %d, num: %d, isSimple: %d\n", conter, num, isSimple(num));
+        if (isSimple(num)){
+            conter++;
         }
-        a++;
     }
-    for (int i = 0; i < n; ++i) {
-        cout << nums[i];
-    }
-    return nums[n-1];
+    //printf("counter: %d, num: %d, isSimple: %d\n", conter, num, isSimple(num));
+    return num;
 }

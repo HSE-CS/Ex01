@@ -1,4 +1,6 @@
-namespace task1 {
-	unsigned int getPrime(unsigned int n);
-}
+#ifndef TASK1_H
+#define TASK1_H
 
+unsigned int getPrime(unsigned int n);
+
+#endif

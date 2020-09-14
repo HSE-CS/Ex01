@@ -3,6 +3,6 @@
 using namespace std;
 
 int main () {
-    cout<<getPrime(2)<<endl;
+    cout<<getPrime(1)<<endl;
     return 0;
 }

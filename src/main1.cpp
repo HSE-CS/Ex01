@@ -1,11 +1,8 @@
-#include <iostream>
-#include "test1.h"
+#include "../include/task1.h"
+#include<iostream>
+using namespace std;
 
 int main() {
-
-	unsigned int n;
-	std::cout << "Enter number of prime number: ";
-	std::cin >> n;
-	getPrime(n);
-	return 0;
+    cout << getPrime(2) << endl;
+    return 0;
 }

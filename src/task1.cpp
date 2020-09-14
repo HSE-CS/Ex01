@@ -1,6 +1,6 @@
 #include "task1.h"
 
-unsigned int GetPrime(unsigned int n) {
+unsigned int getPrime(unsigned int n) {
     int count = 0;
     unsigned int i = 2;
     while(count != n) {

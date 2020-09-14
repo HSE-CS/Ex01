@@ -5,6 +5,6 @@ int main() {
     unsigned int a;
     std::cin >> a;
 
-    std::cout << GetPrime(a) << std::endl;
+    std::cout << getPrime(a) << std::endl;
     return 0;
 }

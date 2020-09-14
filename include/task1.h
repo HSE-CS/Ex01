@@ -1,2 +1,2 @@
-unsigned int GetPrime(unsigned int n);
+unsigned int getPrime(unsigned int n);
 bool IsPrime(unsigned int a);

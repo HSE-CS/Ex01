@@ -5,6 +5,6 @@ using namespace std;
 int main()
 {
 	unsigned int n;
-	cin >> n;
+	n = 2;
 	cout<<getPrime(n);
 }

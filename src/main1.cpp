@@ -3,7 +3,6 @@
 #include <stdlib.h>
 #include "task1.h"
 #include<locale.h> 
-#include < conio.h >
 
 
 int main()

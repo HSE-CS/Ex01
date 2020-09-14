@@ -21,7 +21,7 @@ using namespace std;
 
 int main(){
     unsigned int n;
-    cout << "Put n\n";
+    //cout << "Put n\n";
     cin >> n;
     cout << getPrime(n);
     return 0;

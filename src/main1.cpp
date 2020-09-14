@@ -2,6 +2,6 @@
 #include "task1.h"
 
 int main() {
-    std::cout << GetPrime(30) << std::endl;
+    std::cout << GetPrime(4) << std::endl;
     return 0;
 }

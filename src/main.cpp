@@ -1,12 +1,7 @@
-//
-// Created by Anton on 14.09.2020.
-//
-
-#include <iostrem>
+#include <iostream>
 #include "task1.h"
 
 int main() {
-    GetPrime(5);
+    std::cout << GetPrime(30) << std::endl;
     return 0;
 }
-

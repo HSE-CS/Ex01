@@ -5,6 +5,8 @@
 #include <malloc.h>
 #include <string.h>
 #include <stdlib.h>
+#include <iostream>
+using namespace std;
 
 #define SIZE 256
 
@@ -12,7 +14,10 @@
 
 int main()
 {
-	return 1;
+	unsigned int N;
+	cout << "Input N: ";
+	cin >> N;
+	return getPrime(N);
 }
 
 

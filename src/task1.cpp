@@ -3,8 +3,8 @@
 using namespace std;
 
 bool isPrime(int x) {
-	for (int i = 2; i < sqrt(x); i++) {
-		if (!x % i) {
+	for (int i = 2; i < x; i++) {
+		if (!(x % i)) {
 			return false;
 		}
 	}
@@ -12,13 +12,14 @@ bool isPrime(int x) {
 }
 
 unsigned int getPrime(int x) {
-	int test = 2, count = 0;
+	int test = 1, count = 0, prime = 2;
 
 	while (count < x) {
-		if(isPrime(test)) {
-			count++;
-		}
 		test++;
+		if (isPrime(test)) {
+			count++;
+			prime = test;
+		}
 	}
-	return test;
+	return prime;
 }

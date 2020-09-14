@@ -1,4 +1,6 @@
-#ifndef TASK1_H
-#define TASK1_H
+#ifndef TEST1_H
+#define TEST1_H
+
 unsigned int getPrime(unsigned int n);
+
 #endif

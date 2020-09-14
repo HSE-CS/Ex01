@@ -1,10 +1,8 @@
 #include "../include/task1.h"
-#include <iostream>
+#include<iostream>
 using namespace std;
 
 int main() {
-    int n = 0;
-    cin >> n;
-    cout << getPrime(n) << endl;
+    cout << getPrime(2) << endl;
     return 0;
 }

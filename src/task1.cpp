@@ -7,7 +7,7 @@ unsigned int getPrime(unsigned int n) {
     unsigned int count = 0;
     bool found = false;
     int num = -1;
-    int k = 1;
+    int k = 2;
     while (!found) {
         int dels = 0;
         for (int i = 2; i < k; i++) {

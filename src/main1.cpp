@@ -3,6 +3,8 @@
 using namespace std;
 
 int main() {
-    cout << getPrime(2) << endl;
+    int n = 0;
+    cin >> n;
+    cout << getPrime(n) << endl;
     return 0;
 }

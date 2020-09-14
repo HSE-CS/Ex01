@@ -1,8 +1,12 @@
-#define _CRT_SECURE_NO_WARNINGS
+#include "task1.h"
 #include <iostream>
-#include <stdio.h>
-#include <task1.h>
+
+using namespace std;
+
 int main()
 {
-	getPrime(1);
+	unsigned int n = 0;
+	cin >> n;
+	cout << getPrime(n);
+	return 0;
 }

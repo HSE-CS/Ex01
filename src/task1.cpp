@@ -3,7 +3,7 @@
 #include "task1.h"
 
 using namespace std;
-const int MAX = 105;
+const int MAX = 3571;
 
 unsigned int getPrime(unsigned int n) {
     vector<bool> tmp(MAX, true);

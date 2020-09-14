@@ -6,7 +6,7 @@
 //  Copyright © 2020 Julia Rogozyan. All rights reserved.
 //
 
-#include "task1.hpp"
+#include "task1.h"
 #include<iostream>
 using namespace std;
 

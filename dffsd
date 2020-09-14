@@ -1,0 +1,35 @@
+[33mcommit e7de93e47ee9391b0f069944d7f125f3dbff4131[m[33m ([m[1;36mHEAD -> [m[1;32mb101[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/b114[m[33m, [m[1;31morigin/b113[m[33m, [m[1;31morigin/b112[m[33m, [m[1;31morigin/b111[m[33m, [m[1;31morigin/b110[m[33m, [m[1;31morigin/b109[m[33m, [m[1;31morigin/b108[m[33m, [m[1;31morigin/b107[m[33m, [m[1;31morigin/b106[m[33m, [m[1;31morigin/b105[m[33m, [m[1;31morigin/b104[m[33m, [m[1;31morigin/b103[m[33m, [m[1;31morigin/b102[m[33m, [m[1;31morigin/b101[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mmaster[m[33m)[m
+Author: Anton A. Shtanyuk <ashtanyuk@gmail.com>
+Date:   Mon Sep 14 10:55:13 2020 +0300
+
+    Update README.md
+
+[33mcommit 6390dcdf50150c1c0c46d08b739ed5f56ce10e60[m
+Author: Anton A. Shtanyuk <ashtanyuk@gmail.com>
+Date:   Mon Sep 14 10:54:13 2020 +0300
+
+    Update README.md
+
+[33mcommit 6b069c0640e1bd0aaa39e6ba9255a133682a3c62[m
+Author: Anton A. Shtanyuk <ashtanyuk@gmail.com>
+Date:   Tue Sep 8 12:27:53 2020 +0300
+
+    Update README.md
+
+[33mcommit 60a1d284ca15cc437c43c6559a8700384e86221e[m[33m ([m[1;31morigin/b99[m[33m, [m[1;31morigin/b98[m[33m, [m[1;31morigin/b97[m[33m, [m[1;31morigin/b96[m[33m, [m[1;31morigin/b95[m[33m, [m[1;31morigin/b94[m[33m, [m[1;31morigin/b93[m[33m, [m[1;31morigin/b92[m[33m, [m[1;31morigin/b91[m[33m, [m[1;31morigin/b90[m[33m, [m[1;31morigin/b9[m[33m, [m[1;31morigin/b89[m[33m, [m[1;31morigin/b88[m[33m, [m[1;31morigin/b87[m[33m, [m[1;31morigin/b86[m[33m, [m[1;31morigin/b85[m[33m, [m[1;31morigin/b84[m[33m, [m[1;31morigin/b83[m[33m, [m[1;31morigin/b82[m[33m, [m[1;31morigin/b81[m[33m, [m[1;31morigin/b80[m[33m, [m[1;31morigin/b8[m[33m, [m[1;31morigin/b79[m[33m, [m[1;31morigin/b78[m[33m, [m[1;31morigin/b77[m[33m, [m[1;31morigin/b76[m[33m, [m[1;31morigin/b75[m[33m, [m[1;31morigin/b74[m[33m, [m[1;31morigin/b73[m[33m, [m[1;31morigin/b72[m[33m, [m[1;31morigin/b71[m[33m, [m[1;31morigin/b70[m[33m, [m[1;31morigin/b7[m[33m, [m[1;31morigin/b69[m[33m, [m[1;31morigin/b68[m[33m, [m[1;31morigin/b67[m[33m, [m[1;31morigin/b66[m[33m, [m[1;31morigin/b65[m[33m, [m[1;31morigin/b64[m[33m, [m[1;31morigin/b63[m[33m, [m[1;31morigin/b62[m[33m, [m[1;31morigin/b61[m[33m, [m[1;31morigin/b60[m[33m, [m[1;31morigin/b6[m[33m, [m[1;31morigin/b59[m[33m, [m[1;31morigin/b58[m[33m, [m[1;31morigin/b57[m[33m, [m[1;31morigin/b56[m[33m, [m[1;31morigin/b55[m[33m, [m[1;31morigin/b54[m[33m, [m[1;31morigin/b53[m[33m, [m[1;31morigin/b52[m[33m, [m[1;31morigin/b51[m[33m, [m[1;31morigin/b50[m[33m, [m[1;31morigin/b5[m[33m, [m[1;31morigin/b49[m[33m, [m[1;31morigin/b48[m[33m, [m[1;31morigin/b47[m[33m, [m[1;31morigin/b46[m[33m, [m[1;31morigin/b45[m[33m, [m[1;31morigin/b44[m[33m, [m[1;31morigin/b43[m[33m, [m[1;31morigin/b42[m[33m, [m[1;31morigin/b41[m[33m, [m[1;31morigin/b40[m[33m, [m[1;31morigin/b4[m[33m, [m[1;31morigin/b39[m[33m, [m[1;31morigin/b38[m[33m, [m[1;31morigin/b37[m[33m, [m[1;31morigin/b36[m[33m, [m[1;31morigin/b35[m[33m, [m[1;31morigin/b34[m[33m, [m[1;31morigin/b33[m[33m, [m[1;31morigin/b32[m[33m, [m[1;31morigin/b31[m[33m, [m[1;31morigin/b30[m[33m, [m[1;31morigin/b3[m[33m, [m[1;31morigin/b29[m[33m, [m[1;31morigin/b28[m[33m, [m[1;31morigin/b27[m[33m, [m[1;31morigin/b26[m[33m, [m[1;31morigin/b25[m[33m, [m[1;31morigin/b24[m[33m, [m[1;31morigin/b23[m[33m, [m[1;31morigin/b22[m[33m, [m[1;31morigin/b21[m[33m, [m[1;31morigin/b20[m[33m, [m[1;31morigin/b2[m[33m, [m[1;31morigin/b19[m[33m, [m[1;31morigin/b18[m[33m, [m[1;31morigin/b17[m[33m, [m[1;31morigin/b16[m[33m, [m[1;31morigin/b15[m[33m, [m[1;31morigin/b14[m[33m, [m[1;31morigin/b13[m[33m, [m[1;31morigin/b12[m[33m, [m[1;31morigin/b11[m[33m, [m[1;31morigin/b100[m[33m, [m[1;31morigin/b10[m[33m, [m[1;31morigin/b1[m[33m)[m
+Author: Anton A. Shtanyuk <ashtanyuk@gmail.com>
+Date:   Tue Sep 8 09:52:37 2020 +0300
+
+    Update README.md
+
+[33mcommit 11d729a2e7370ef9939f1dc96fcd00a40c1842d9[m
+Author: Anton A. Shtanyuk <ashtanyuk@gmail.com>
+Date:   Tue Sep 8 09:43:19 2020 +0300
+
+    Update test_lab1.cpp
+
+[33mcommit 624b72258459e6d0f2183d7114e8a92f41c8c764[m
+Author: anton <ashtanyuk@gmail.com>
+Date:   Tue Sep 8 09:39:25 2020 +0300
+
+    Initial commit

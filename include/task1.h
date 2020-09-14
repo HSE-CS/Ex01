@@ -1,6 +1,6 @@
-#ifndef HEADER_H
-#define HEADER_H
-#define _CRT_SECURE_NO_WARNINGS
-#include <malloc.h>
+#ifndef TASK1_H
+#define TASK1_H
+
+unsigned int getPrime(unsigned int n);
 
 #endif

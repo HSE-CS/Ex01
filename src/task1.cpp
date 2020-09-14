@@ -1,3 +1,4 @@
+
 unsigned int getPrime(unsigned int n) {
 	int i = 0;
 	int number = 2;

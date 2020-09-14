@@ -4,9 +4,5 @@
 using namespace std;
 int main()
 {
-	cout << "Enter n ";
-	unsigned int n; 
-	cin >> n;
-	n = getPrime(n);
-	cout << n;
+	getPrime(1);
 }

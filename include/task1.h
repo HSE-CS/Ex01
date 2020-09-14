@@ -1,5 +1,6 @@
 #ifndef TASK1_H_INCLUDED
 #define TASK1_H_INCLUDED
+#define _CRT_SECURE_NO_WARNINGS
 #include <iostream>
 #include <cstdio>
 #include <cstdlib>

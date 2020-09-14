@@ -3,8 +3,8 @@
 using namespace std;
 
 int main() {
-	/*int n;
+	int n;
 	cin >> n;
-	cout << getPrime(n);*/
+	cout << getPrime(n);
 	return 0;
 }

@@ -1,0 +1,1 @@
+unsigned int getPuime?(unsigned int n)

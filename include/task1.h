@@ -4,6 +4,6 @@
 
 #ifndef A_TASK1_H
 #define A_TASK1_H
-int GetPrime(int n);
+unsigned int GetPrime(unsigned int n);
 bool IsPrime(int a);
 #endif //A_TASK1_H

@@ -1,1 +1,1 @@
-unsigned int getPrime(unsigned int n);
+ unsigned int getPrime(unsigned int n);

@@ -1,24 +1,31 @@
-#include "header.h"
-#define _CRT_SECURE_NO_WARNINGS
-#include <stdio.h>
-#include <math.h>
-#include <malloc.h>
-#include <string.h>
-#include <stdlib.h>
-#include <iostream>
-using namespace std;
-
-#define SIZE 256
+#include "task1.h"
+#include <cmath>
 
 
-
-int main()
+unsigned int simple(unsigned int n)
 {
-	unsigned int N;
-	cout << "Input N: ";
-	cin >> N;
-	return getPrime(N);
+    if (n <= 1)
+        return 0;
+
+    for (int i = 2; i <= sqrt(n); i++)
+        if (n % i == 0)
+            return 0;
+    return 1;
 }
 
 
 
+unsigned int getPrime(unsigned int n) {
+    unsigned int c = 0, k = 0;
+    while (true) {
+        if (c < n) {
+            if (simple(k++)) {
+                c++;
+            }
+        }
+        else {
+            break;
+        }
+    }
+    return --k;
+}

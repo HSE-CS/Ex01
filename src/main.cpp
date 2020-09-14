@@ -4,5 +4,7 @@
 using namespace std;
 int main()
 {
-	getPrime(1);
+	unsigned int n;
+	cin >> n;
+	cout<<getPrime(n);
 }

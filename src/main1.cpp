@@ -7,5 +7,5 @@ using namespace std;
 
 int main(){
 	cout<<getPrime(2)<<endl;
-return 0
+return 0;
 }

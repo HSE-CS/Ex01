@@ -6,7 +6,7 @@
 using namespace std;
 
 unsigned int getPrime(unsigned int n){
-	if (n==2)
+	if (n==1)
 		return 2;
 	if (n==2)
 		return 3;

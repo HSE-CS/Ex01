@@ -5,7 +5,8 @@
 unsigned int getPrime(int n) {
 	int kol = 0;
 	int fl = -1;
-	for (int i = 1; i < 100; i++) {
+	int i = 1;
+	while (kol!=n) {
 		fl = is_prime(i);
 		if (fl == 1) {
 			kol++;
@@ -13,6 +14,7 @@ unsigned int getPrime(int n) {
 		if (kol == n) {
 			return i;
 		}
+		i++;
 	}
 };
 

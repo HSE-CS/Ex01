@@ -4,7 +4,7 @@
 
 int main() {
 	unsigned int n;
-	printf("Enter the number between 1 and 10\n");
+	printf("Enter the number\n");
 	scanf("%d", &n);
 	int e = getPrime(n);
 	printf("%d", e);

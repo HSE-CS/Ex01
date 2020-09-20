@@ -1,5 +1,6 @@
 unsigned int getPrime(unsigned int n)
 {
+<<<<<<< HEAD
 	unsigned int i, j, a, N;
 	
 	a = 0;
@@ -15,3 +16,7 @@ unsigned int getPrime(unsigned int n)
 		}
 	}
 }
+=======
+    return 5;
+}
+>>>>>>> 75b67802c18ac785d576cbcd455de8d8a7b89935

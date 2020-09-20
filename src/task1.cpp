@@ -17,5 +17,5 @@ unsigned int getPrime(unsigned int n)
 	}
 }
 
-}
+
 //>>>>>>> 75b67802c18ac785d576cbcd455de8d8a7b89935

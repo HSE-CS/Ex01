@@ -1,6 +1,6 @@
 #include "../include/task1.h"
 
-bool isPrime(unsigned int a)
+bool isPrime(unsigned int n)
 {
 	if (n <= 1) return false;
 	for (unsigned int i = 2; i < n; ++i)

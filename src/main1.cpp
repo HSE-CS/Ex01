@@ -4,8 +4,8 @@ using namespace std;
 
 int main()
 {
-	int min = { 1 };
-	int max = { 100 };
-	cout << getPrime(min, max);
+	int n;
+	cin >> n;
+	cout << getPrime(n) << endl;
 	return 0;
 }

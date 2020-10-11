@@ -1,1 +1,6 @@
-unsigned int getPrime(unsigned int n); #pragma once
+#ifndef PROJECT1
+#define PROJECT1
+
+unsigned int getPrime(unsigned int n);
+
+#endif

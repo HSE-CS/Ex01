@@ -1,15 +1,33 @@
 #include "task1.h"
 
-unsigned long getPrime(unsigned int min, unsigned max)
+unsigned int getPrime(unsigned int n) 
 {
-	unsigned k = max;
-	while (true)
+	
+	unsigned int count = 0;
+	bool found = false;
+	int num = -1;
+	int k = 2;
+	while (!found) 
 	{
-		int check = { 0 };
-		for (int i = min; i <= max; i++)
-			if (0 == k % i) check++;
-		if (max - min + 1 == check)
-			return k;
-		else k++;
+		int dels = 0;
+		for (int i = 2; i < k; i++) 
+		{
+			if (k % i == 0)
+			{
+				dels++;
+			}
+		}
+		if (dels == 0) 
+		{
+			count++;
+			if (count == n)
+			{
+				found = true;
+				num = k;
+				break;
+			}
+		}
+		k++;
 	}
+	return num;
 }

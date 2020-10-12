@@ -12,8 +12,7 @@ bool IfPrime(unsigned int ch){
     for (unsigned int i = 2; i < ch; i++)
         if (ch % i == 0)
             return false;
-        else
-            return true;
+    return true;
 }
 
 unsigned int getPrime(unsigned int n){

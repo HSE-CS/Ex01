@@ -1,0 +1,2 @@
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ar qc libtask1_lib.a  CMakeFiles/task1_lib.dir/src/task1.cpp.o CMakeFiles/task1_lib.dir/src/task2.cpp.o CMakeFiles/task1_lib.dir/src/main1.cpp.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib libtask1_lib.a

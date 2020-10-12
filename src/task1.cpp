@@ -6,6 +6,9 @@ bool IfPrime(unsigned int ch){
     if (ch <= 1)
         return false;
 
+    if (ch == 2)
+        return true;
+
     for (unsigned int i = 2; i < ch; i++)
         if (ch % i == 0)
             return false;

@@ -6,13 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/Users/aleksandrgrachev/CLionProjects/Ex01/include/task1.h
+/Users/aleksandrgrachev/CLionProjects/Ex01/src/task1.cpp
 iostream
 -
-
-/Users/aleksandrgrachev/CLionProjects/Ex01/src/main1.cpp
-../include/task1.h
-/Users/aleksandrgrachev/CLionProjects/Ex01/include/task1.h
-
-/Users/aleksandrgrachev/CLionProjects/Ex01/src/task2.cpp
 

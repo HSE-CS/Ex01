@@ -1,0 +1,4 @@
+/Users/aleksandrgrachev/CLionProjects/Ex01/cmake-build-debug/CMakeFiles/task1.dir
+/Users/aleksandrgrachev/CLionProjects/Ex01/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/aleksandrgrachev/CLionProjects/Ex01/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/aleksandrgrachev/CLionProjects/Ex01/cmake-build-debug/CMakeFiles/task1_lib.dir

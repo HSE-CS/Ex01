@@ -4,19 +4,14 @@
 using namespace std;
 
 unsigned int getPrime(unsigned int n) {
-    // cout<<n<<endl;
-    unsigned int count = 0;
+    unsigned int count = {0};
     bool found = false;
-    int num = -1;
-    int k = 2;
+    int num = {0};
+    int k = {2};
     while( !found) {
         int dels = 0;
-        for(int i = 2; i < k; i++){
-            if(k % i == 0) {
-                dels++;
-            }
-        }
-        if(dels == 0) {
+        for(int i = {2}; i < k; i++) if(0 == k % i) dels++;
+        if(0 == dels) {
             count++;
             if(count == n) {
                 found = true;

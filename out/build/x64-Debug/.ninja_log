@@ -1,0 +1,23 @@
+# ninja log v5
+8	1340	624575620	CMakeFiles/task1_lib.dir/src/task1.cpp.obj	91fc496d00170cf3
+1	1440	624575620	CMakeFiles/task1.dir/src/main1.cpp.obj	69f89bbbae8c71ba
+1434	1606	624575620	task1_lib.lib	734184cc6db0be97
+1606	2445	624575621	task1.exe	24dd443d46823f1f
+0	833	624575684	CMakeFiles/task1.dir/src/main1.cpp.obj	69f89bbbae8c71ba
+884	1237	624575684	task1.exe	24dd443d46823f1f
+6	774	624578045	CMakeFiles/task1_lib.dir/src/task1.cpp.obj	91fc496d00170cf3
+834	883	624578045	task1_lib.lib	734184cc6db0be97
+1	900	624578045	CMakeFiles/task1.dir/src/main1.cpp.obj	69f89bbbae8c71ba
+909	1232	624578045	task1.exe	24dd443d46823f1f
+1	573	624578090	CMakeFiles/task1_lib.dir/src/task1.cpp.obj	91fc496d00170cf3
+625	687	624578090	task1_lib.lib	734184cc6db0be97
+687	936	624578091	task1.exe	24dd443d46823f1f
+1	546	624578115	CMakeFiles/task1_lib.dir/src/task1.cpp.obj	91fc496d00170cf3
+602	646	624578115	task1_lib.lib	734184cc6db0be97
+646	865	624578115	task1.exe	24dd443d46823f1f
+1	538	624578137	CMakeFiles/task1_lib.dir/src/task1.cpp.obj	91fc496d00170cf3
+579	623	624578137	task1_lib.lib	734184cc6db0be97
+623	918	624578138	task1.exe	24dd443d46823f1f
+1	614	624578244	CMakeFiles/task1_lib.dir/src/task1.cpp.obj	91fc496d00170cf3
+693	734	624578244	task1_lib.lib	734184cc6db0be97
+734	964	624578244	task1.exe	24dd443d46823f1f

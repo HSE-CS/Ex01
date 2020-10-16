@@ -1,7 +1,5 @@
-
 #include "task1.h"
 #include <vector>
-
 
 unsigned int getPrime(unsigned int n) {
 	std::vector<unsigned int> ignore = { 2 };

@@ -5,7 +5,7 @@
 unsigned int getPrime(int n) {
 	int kol = 0;
 	int fl = -1;
-	int i = 1;
+	int i = 2;
 	while (kol!=n) {
 		fl = is_prime(i);
 		if (fl == 1) {

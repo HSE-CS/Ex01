@@ -1,8 +1,8 @@
 #pragma once
-#define TASK1_H
 #ifndef TASK1_H
-
-unsigned int getPrime(unsigned int n);
+#define TASK1_H
 bool checkPrime(unsigned int value);
+unsigned int getPrime(unsigned int n);
+
 
 #endif

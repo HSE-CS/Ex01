@@ -1,33 +1,28 @@
-<<<<<<< HEAD
-#include <stdio.h>
-#include <stdlib.h>
-#include "task1.h"
-#define CRT_SECURE_NO_WARNINGS
+#include "../include/task1.h"
+#include <iostream>
+using namespace std;
 
-unsigned int getPrime(unsigned int n)
-{
-	unsigned int a = 2;
-	unsigned int c = 1;
-	int b = 0;
-	while (c != n)
-	{
-		a++;
-		b = 0;
-		for (int i = 1; i <= a; i++)
-		{
-			if (a % i == 0)
-				b++;
+unsigned int getPrime(unsigned int n) {
+	unsigned int count = 0;
+	bool found = false;
+	int num = -1;
+	int k = 2;
+	while (!found) {
+		int dels = 0;
+		for (int i = 2; i < k; i++) {
+			if (k % i == 0) {
+				dels++;
+			}
 		}
-		if (b == 2)
-			c++;
+		if (dels == 0) {
+			count++;
+			if (count == n) {
+				found = true;
+				num = k;
+				break;
+			}
+		}
+		k++;
 	}
-	return(a);
-=======
-#include "task1.h"
-int getPrime(int N)
-{
-	for (int i = 2; i * i <= N; i++)
-		if (N% i == 0) return 0;
-	return 1;
->>>>>>> 2ae2c89b32a979902ba4d7638feb157ff45384db
+	return num;
 }

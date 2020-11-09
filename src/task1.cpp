@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #include <stdio.h>
 #include <stdlib.h>
 #include "task1.h"
@@ -21,4 +22,12 @@ unsigned int getPrime(unsigned int n)
 			c++;
 	}
 	return(a);
+=======
+#include "task1.h"
+int getPrime(int N)
+{
+	for (int i = 2; i * i <= N; i++)
+		if (N% i == 0) return 0;
+	return 1;
+>>>>>>> 2ae2c89b32a979902ba4d7638feb157ff45384db
 }
